@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.header_a {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+}
+
+.header_a div{
+    margin-top: 10px;
+}
+
+.header_link{
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.header_a p{
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+nav a{
+    color: gray;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.container{
+    width: 1300px;
+    height: 0px auto 0px auto;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.wert {
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px double blue;
+}
+
+.top_s {
+    margin-bottom: 25px;
+}
+
+.text p {
+    opacity: 0.7
+}
+
+.text h1{
+    text-align: left;
+}
+
+.top, .text, .top_s{
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.catalog{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.catalog article{
+    width: 300px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.catalog article img{
+    width: 300px;
+    border-radius: 25px 25px 0 0;
+}
+
+.catalog article h3, .catalog article p{
+    margin-left: 10px;
+}
+
+.podval{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.podval article{
+    width: 225px;
+    border-radius: 25px;
+    border: 3px solid gray;
+    margin: 20px;
+    text-align: center;
+}
+
+.podval article img{
+    width: 100px;
+    border-radius: 25px 25px 0 0;
+
+}
+
+.podval article h3, .podval article p{
+    margin-left: 10px;
+}
+
+.otzivi p{
+    color: gray;
+}
